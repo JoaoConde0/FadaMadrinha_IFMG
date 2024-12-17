@@ -16,7 +16,6 @@
 
                 <a href="index.html">
                     <h1 >Fada Madrinha</h1>
-                    <img src="" alt=""><!--Icon-->
                 </a>
             </div>
             <nav class="menu"><!--tudo que está no cabeçario lateral  -->
@@ -85,45 +84,40 @@
     </div>
 
     <button onclick="clicou()">Fechas pedido</button>
-    <script>
-        function clicou(){
-            window.alert ('Somando o valor de todos os produtos')
-        }
 
-        function total(){
-            let quant = window.prompt //quantidade de peças no carrinho
-            let n1 = Number(window.prompt)// valor do item 1
-            let soma = (n1 + n2)
-            let res = document.getElementById('situacao')
-            res.innerHTML += <p>`O valor total do pedido é ${soma}`.</p>
-        }
-    </script>
+<footer class="Contatos">
+    <div class="interface">
+        <div class="line-footer">
+            <div class="flex">
+                <div class="logo-footer">
+                    <img src="images/Fada.png" alt="Logotipo Fada Madrinha">
+                    <span>Fada Madrinha</span>
+                </div><!--logo-footer-->
+                <div class="btn-social">
+                    <a href="https://www.instagram.com/" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                    <a href="https://www.youtube.com/" target="_blank"><button><i class="bi bi-youtube"></i></button></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                </div><!--btn-social-->
+            </div>
+        </div><!--line-footer-->
 
-    <footer class="Contatos">
-        <h3>Fale Conosco por:</h3>
-        <ul>
-            <li>
+        <div class="line-footer borda">
+            <p><i class="bi bi-envelope-fill"></i> <a href="mailto: publico@fadamadrinha.com.br">publico@fadamadrinha.com.br</a></p>
+        </div><!--line-footer-->
+    </div><!--interface-->
+</footer>
+<script>
+    function clicou(){
+        window.alert ('Somando o valor de todos os produtos')
+    }
 
-                Telefone: 31 3000-0000
-
-            </li> 
-            <li>
-                Endereço: Rua do bobo Nº 0 - MG
-            </li>
-            <li>
-                Email: contatocliente@fadamadrinha.com.br
-            </li>
-            <li>
-
-                <a href="https://instagram.com" target="_blank">Instagram: @FadaMadrinha</a>
-                </li>
-            <li>
-                <a href="https://www.linkedin.com/" target="_blank">LinkedIn:  @FadaMadrinha</a>
-                </li>
-            <li>
-                <a href="https://www.youtube.com/" target="_blank">Youtube:   FadaMadrinha</a>
-                </li>
-        </ul>
-    </footer>
+    function total(){
+        let quant = window.prompt //quantidade de peças no carrinho
+        let n1 = Number(window.prompt)// valor do item 1
+        let soma = (n1 + n2)
+        let res = document.getElementById('situacao')
+        res.innerHTML += <p>`O valor total do pedido é ${soma}`.</p>
+    }
+</script>
 </body>
 </html>
