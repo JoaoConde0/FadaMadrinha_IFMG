@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+    </style>
+    <title>Registro</title>
+</head>
+<body>
+
+    <a href="index.html" target="_self">
+        <button><</button>
+    </a>
+    
+    <h1>Olá! Faça seu cadastro para começar</h1>
+    
+    <fieldset>
+        <legend>Dados de Login</legend>
+
+        <label for="nome-box">Nome completo:</label>
+        <input type="text" required >
+        <br>
+
+        <label for="celular-box">Celular:</label>
+        <input type="tel" pattern="^\(\d{2}) \d{4,5}-\d{4}$" placeholder="(xx) xxxx-xxxx" >
+        <br>
+
+        <label for="email-box">Email:</label>
+        <input type="email" required >
+        <br>
+
+        <label for="senha-box">Senha:</label>
+        <input type="password" required minlength="6" placeholder="Mínimo 6 caracteres">
+        <br>
+
+        <label for="confSenha-box">Confirmar senha:</label>
+        <input type="password" required >
+        <br>
+
+        <label for="cep-box">CEP:</label>
+        <input type="text" required >
+        <br>
+    </fieldset>
+
+    <a href="Login.html" target="_self">
+        <button>Registrar</button>
+    </a>
+    <h4>Já tem uma conta? <a href="Login.html" target="_self">Entre agora!</a></h4>
+
+    
+</body>
+</html>
