@@ -1,14 +1,80 @@
+/*geral*/
+:root {
+    --cor-principal: #183677; /* Cor azul escuro */
+    --cor-de-fundo: #f0f0f0;       /* Cinza claro */
+}
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
 body{
-    background-color:#b2b2b8 ;
+    background-color:#f6e7d8;
     font-family:  'Courier New', Courier, monospace ;
     font-size: 15px;
     text-align: justify;
+}
+/*HEADER*/
+header {
+    padding: 20px 4%;
+    background-color: var(--cor-principal);
+}
+
+header> .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header nav.menu a:hover {
+    color: black;
+    transform: scale(1.05);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav.menu ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+header h1{
+    color: white;
+    align-self: baseline;
+}
+
+.botoes button{
+    padding: 12px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #132753;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+    color: #f6e7d8;
+}
+
+button:hover,
+form .botoes input:hover {
+    box-shadow: 0px 0px 8px var(--cor-principal);
+    trans
 }
 
 h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
-    color: #183677 ;
+    color: var(--cor-principal) ;
 }
 
 h2{
@@ -23,13 +89,11 @@ h3{
 
 .Contatos{
     margin-top: -24px;
-    background-color: #183677;
+    background-color: var(--cor-principal);
     color: white;
 }
 
-p{
-    color: black;
-}
+/*Ver depois*/
 
 table{
     width: 600px;
@@ -48,56 +112,130 @@ caption{
     font-size: 2.0em;
     font-weight: bold;
     padding: 10px;
-    color: #183677;
+    color: var(--cor-principal);
 }
 
 fieldset{
     border: 1px solid black;
 }
 
-nav{
-    background-color: #183677;
-    padding: 10px;
-    box-shadow: 0px 7px 7px rgba(0, 0, 0, 200);
-}
-nav > a{
-    color: white;
-    padding: 10px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    transition-duration: 0.5s;
-}
 
-nav > a:hover{
-    background-color: #4f7cdf;
-    color: black;
-}
-header{
-    background-color: #183677;
-    color:white;
-    text-align:center;
-    padding-top: 40px;
-}
 
-header > h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 3em;
-    font-weight: normal;
-    text-shadow: 2px 2px 0px black;
-    color: white;
-    text-align: center;
-    background-color: #183677; 
-    margin-top: 0%;
-}
-picture{
-    padding: 70px;
-}
-
-button{
-    font-size: 12pt;
-}
 
 a{
     color: white;
 }
+
+/*Página Index*/
+
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+
+/*Parte topo*/
+section.topo-do-site{
+    padding: 40px 4%;
+}
+.flex{
+    display: flex;
+}
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 210px;
+}
+.topo-do-site h1{   
+    color: var(--cor-principal);
+    font-size: 54px;
+    margin: 0px;
+}
+.topo-do-site p{
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 40px 0px;
+}
+.btn-aproveite button{
+    padding: 12px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: var(--cor-principal);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+    color: #f6e7d8;
+}
+
+button:hover,
+form .btn-aproveite input:hover {
+    box-shadow: 0px 0px 8px var(--cor-principal);
+    transform: scale(1.05);
+}
+.topo-do-site .img-topo-site img {
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+
+@keyframes flutuar {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: 30px;
+    }
+}
+
+/*Bloco da ODS*/
+
+section.ods {
+    padding: 40px 4%;
+}
+
+section.ods .flex {
+    gap: 60px;
+}
+
+.ods .projetos-box {
+    color: black;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.ods .projetos-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 50px #23232378;
+}
+
+.ods .projetos-box i {
+    font-size: 120px;
+    color: green;
+}
+
+
+.ods .projetos-box span {
+    font-size: 23px;
+    color: green;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.ods h2 {
+    color: var(--cor-principal);
+    font-size: 38px;
+    text-align: center;
+}
+
+.ods.titulo span {
+    color: #00FF08;
+}
+
