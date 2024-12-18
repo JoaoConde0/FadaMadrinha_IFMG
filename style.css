@@ -672,6 +672,7 @@ footer .logo-footer span{
 footer .line-footer p i {
     color: white;
     font-size: 22px;
+    justify-content: baseline;
 }
 
 footer .btn-social button{
