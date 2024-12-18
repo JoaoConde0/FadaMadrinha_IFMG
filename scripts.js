@@ -39,3 +39,9 @@ if (paginaAtual.includes("Inicial.html")) {
   const nomeUsuario = document.getElementById('nomeUsuario');
   nomeUsuario.textContent = nome;
 }
+function addToCart() {
+  alert('O produto foi adicionado ao carrinho!');
+  alert('Redirecionando pagina ao carrinho...');
+  window.location.href = 'carrinho.html';
+
+}
