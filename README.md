@@ -1,4 +1,4 @@
-# i9 Gestão Web
+# Fada Madrinha
 
 Projeto Final da disciplina "Programação Web" no curso técnico.
 
