@@ -9,16 +9,10 @@ Projeto Final da disciplina "Programação Web" no curso técnico.
 
 ## 🛠️ Tecnologias
 
-- [Html](https://nextjs.org)
-- [JavaScript](https://www.typescriptlang.org)
-- [Cascading Style Sheets (CSS)](https://tanstack.com/query)
+- [Html]
+- [JavaScript]
+- [Cascading Style Sheets (CSS)]
 - [PHP](https://www.php.net/)
-
-## 📋 Pré-requisitos
-
-1. **Node.js** 18+ 
-2. **API Backend** rodando na porta 3300
-3. **npm/yarn/pnpm** para gerenciamento de pacotes
 
 ## 🔗 Créditos
 
