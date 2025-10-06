@@ -18,10 +18,10 @@ Projeto Final da disciplina "Programação Web" no curso técnico.
 
 O projeto foi trabalho de um grupo, sendo eles:
 
--Carlos Eduardo de Araújo Celestino 
--Gabrielly Rigueira Gomes da Silva (www.linkedin.com/in/gabrielly-rigueira-2a62a3349)
--João Victor de Andrade Condé (www.linkedin.com/in/conde-joao)
--Rayane
--Vitória
--Vívian Silva Matos Pinheiro
+- Carlos Eduardo de Araújo Celestino 
+- Gabrielly Rigueira Gomes da Silva (www.linkedin.com/in/gabrielly-rigueira-2a62a3349)
+- João Victor de Andrade Condé (www.linkedin.com/in/conde-joao)
+- Rayane
+- Vitória
+- Vívian Silva Matos Pinheiro
 
